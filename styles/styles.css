@@ -7,8 +7,37 @@
 }
 .home-title {
     text-align: center;
+    margin: 10px auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.lasagna {
+.home-images{
+    margin: 10px;
+    margin: 0 auto;
+    margin-left: 2%;
+}
 
+.title-image {
+    text-align: center;
+    color: red;
+}
+
+.description,
+.ingredients,
+.steps {
+    padding: 10px 20px;
+    margin: 0.25%;
+    border: 1px dotted black;
+}
+
+.description {
+    background-color: lightyellow;
+}
+
+.ingredients{
+    background-color: lightblue;
+}
+
+.steps {
+    background-color: lightpink;
 }
